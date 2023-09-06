@@ -1,0 +1,17 @@
+.navbar {
+    height: 8vh; 
+    background-color: lavender
+    margin-bottom: 1em;
+}
+
+#navbox {
+    height: 8vh;
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+    list-style-type: none;
+}
+
+li {
+    list-style-type: none;
+}
