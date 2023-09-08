@@ -6,18 +6,40 @@
     <link rel="stylesheet" href="styles/main.css">
     <title>Martin's Fish</title>
 </head>
+
 <body>
-<!-- Nav Bar: Fish, Care, Quotes, Harvesting Locations-->
+    <!-- Header for webpage -->
+    <header>
+        <h1> Martin's Aquarium </h1>
+    </header>
+
+<!-- Nav Bar: Fish, Care, Quotes,Locations-->
 <nav class="navbar">
     <ul id="navbox">
        <li><a href="/">Home</a></li>
        <li><a href="/fish">Fish</a></li>
        <li><a href="/care">Care</a></li>
-       <li><a href="/quotes">Quotes</a></li>
+       <li><a href="/tips">Tips</a></li>
        <li><a href="/locations">Locations</a></li>
     </ul>
 </nav>
 
-    <script type="module" src="scripts/main.js"></script>
+<main id="content">
+    <div class ="necessary-column" id="main-stuff">
+        <h2> Martin's Fish </h2>
+        <section id="fish-list"></section>
+        <h2> Harvesting Locations </h2>
+        <section id="locations"></section>
+    </div>
+    <div class="necessary-column" id="sidebar">
+        <h1> Fish Tank Tips! </h1>
+        <aside id="tips"></aside>
+    </div>
+</div>
+</main>
+
+<script type="module" src="./scripts/main.js"></script>
+
 </body>
 </html>
+
